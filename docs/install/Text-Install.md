@@ -25,7 +25,7 @@ inet6 fe80::a00:27ff:fe1f:41e4/10
 
 ## SSH and install start.
 
-Next open a ``terminal`` on another computer 
+Next open a ``terminal`` on another computer
 (or your favorite ``ssh`` client **IF** you're on windows) and connect.
 
 - The ``username`` is ``jack`` and the ``password`` is ``openindiana``
@@ -64,7 +64,7 @@ Take a moment to read if you need to and when you're ready press ``F2`` to conti
 
 ## Disk partitioning/management
 
-Now you can ``partition`` your ``disk`` or just use the whole disk. 
+Now you can ``partition`` your ``disk`` or just use the whole disk.
 (use ``arrow`` keys to navigate menus)
 
 ![partition screen one](../images/install/txt/partitionscreen1.png)
@@ -75,7 +75,7 @@ Now you can ``partition`` your ``disk`` or just use the whole disk.
 
 ## Network setup
 
-Now you can setup your ``hostname``(Computer Name) 
+Now you can setup your ``hostname``(Computer Name)
 and how your ``network`` is setup.
 
 ![set hostname](../images/install/txt/network1.png)
