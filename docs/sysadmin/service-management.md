@@ -1,20 +1,26 @@
 # Basic service management
 
 To check state of all services:
+
 ```bash
 svcs -a
 ```
+
 To disable the service (stop it) -the name as it appears in scvs
+
 ```bash
 svcadm disable -t network/nameofservice:default
 ```
 
 To start a disabled service -the name as it appears in scvs
+
 ```bash
 svcadm enable -t network/nameofservice:default
 ```
 
-To create your own service create an xml file that lists the dependencies, start, stop and restart commands:
+To create your own service create an xml file that lists the dependencies,
+start, stop and restart commands:
+
 ```xml
 <?xml version="1.0"?>
 <!DOCTYPE service_bundle
@@ -48,25 +54,25 @@ timeout_seconds='60' >
 </service>
 </service_bundle>
 ```
+
 Then add the xml file to the service manager with
+
 ```bash
 sudo svccfg import nameofservice.xml
 ```
+
 To remove a service from the manager first make sure it is disabled then
 
 ```bash
 sudo svccfg delete network/service:default
 ```
 
-This will auto start on boot as ROOT unless you specify otherwise.You can change the user by adding in method credentials into the start, stop or restart exec_methods.
+This will auto start on boot as ROOT unless you specify otherwise.You can
+change the user by adding in method credentials into the start, stop or restart
+exec_methods.
+
 ```xml
 <method_context> <method_credential user='sas' /> </method_context>
 ```
-
-More hints/info here:
-* http://www.oracle.com/us/products/servers-storage/solaris/solaris-smfmanifest-wp-167902.pdf
-* http://discuss.joyent.com/viewtopic.php?id=12802
-* http://www.sun.com/bigadmin/content/selfheal/smf-quickstart.jsp
-* http://www.sun.com/bigadmin/features/articles/smf_example.jsp
 
 credit for these docs go to [/u/127b](https://www.reddit.com/user/127b)

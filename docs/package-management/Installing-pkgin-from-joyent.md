@@ -1,11 +1,11 @@
-# Installing pkgsrc from http://pkgsrc.joyent.com/
+# Installing pkgsrc from [Joyent](http://pkgsrc.joyent.com/)
 
 
 ## Getting and Installing pkgin/pkgsrc
 
 ### 64-bit
 
-```
+```bash
 : Download 64-bit bootstrap kit
 $ curl -Os https://pkgsrc.joyent.com/packages/SmartOS/bootstrap/bootstrap-2015Q3-x86_64.tar.gz
 
@@ -28,7 +28,7 @@ $ MANPATH=/opt/local/man:$MANPATH
 
 ### 32-bit
 
-```
+```bash
 : Download 32-bit bootstrap kit
 $ curl -Os https://pkgsrc.joyent.com/packages/SmartOS/bootstrap/bootstrap-2015Q3-i386.tar.gz
 
@@ -53,7 +53,7 @@ $ MANPATH=/opt/local/man:$MANPATH
 
 I haven't tested this myself, but I assume it ***should*** work.
 
-```
+```bash
 : Download multiarch bootstrap kit
 $ curl -Os https://pkgsrc.joyent.com/packages/SmartOS/bootstrap/bootstrap-2015Q3-multiarch.tar.gz
 
@@ -78,12 +78,14 @@ $ MANPATH=/opt/local/man:$MANPATH
 
 ### Use pkgin to install packages
 
-```pkgin``` is the front-end to the binary packages, and lets you search for, install, upgrade, and remove packages. It also provides some basic functionality for querying both local and remote packages. If you have used ```apt-get``` or ```yuml youckaging tools are pkg_add, pkg_admin, pkg_create, pkg_delete, and pkg_info. If pkgin is equivalent to apt-get or yum, then these are the equivalent of dpkg or rpm. Here are some useful commands to get you started.should find it to be very familiar.
+``pkgin`` is the front-end to the binary packages, and lets you search for,
+install, upgrade, and remove packages. It also provides some basic functionality
+for querying both local and remote packages. If you have used ``apt-get`` or
+``yum`` you should find it to be very familiar.
 
+You'll need to run ``sudo pkgin -y update`` first before you can do searches.
 
-You'll need to run ```sudo pkgin -y update``` first before you can do searches.
-
-```
+```bash
 : Search for a package.  Regular expressions are supported.
 $ pkgin search "^ffmpeg[12]*$"
 ffmpeg2-2.6          Decoding, encoding and streaming software (v2.x)
@@ -110,9 +112,12 @@ $ sudo pkgin -y autoremove
 
 ### Use pkg_* tools to manage packages
 
-The underlying packaging tools are ```pkg_add```, ```pkg_admin```, ```pkg_create```, ```pkg_delete```, and ```pkg_info```. If ```pkgin``` is equivalent to ```apt-get``` or ```yum```, then these are the equivalent of ```dpkg``` or ```rpm```. Here are some useful commands to get you started.
+The underlying packaging tools are ``pkg_add``, ``pkg_admin``,
+``pkg_create``, ``pkg_delete``, and ``pkg_info``. If ``pkgin``
+is equivalent to ``apt-get`` or ``yum``, then these are the equivalent of
+``dpkg`` or ``rpm``. Here are some useful commands to get you started.
 
-```
+```bash
 : See what packages are installed.
 $ pkg_info
 
@@ -137,4 +142,4 @@ Package python27-2.7.8 has a arbitrary-code-execution vulnerability, see http://
 $ pkg_create -B build-info -c comment -d description -f packlist -I /opt/local -p files/ -U foo-1.0.tgz
 ```
 
-All these docs are mainly sourced from http://pkgsrc.joyent.com/install-on-illumos/ and credit goes to https://pkgsrc.joyent.com !
+All these docs are mainly sourced from [https://pkgsrc.joyent.com/install-on-illumos/](http://pkgsrc.joyent.com/install-on-illumos/) and credit goes to [https://pkgsrc.joyent.com/](https://pkgsrc.joyent.com) !

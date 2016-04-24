@@ -1,7 +1,7 @@
 # Booting into a new system image.
 
-You can have multiple snapshots of / in OpenIndiana thanks to ZFS, a typical use
-case for needing to boot into a new image is after pkg updates
+You can have multiple snapshots of / in OpenIndiana thanks to ZFS, a typical
+use case for needing to boot into a new image is after pkg updates
 
 * Goto the ```System``` menu,
   * Press ```Shut Down...```

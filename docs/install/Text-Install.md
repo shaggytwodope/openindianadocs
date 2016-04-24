@@ -8,13 +8,13 @@ In the ```boot menu```, select ```OI hipster Enable SSH```
 
 When you get to the desktop open a ```terminal``` and enter
 
-```
+```bash
 ifconfig | grep inet
 ```
 
 This should ```print``` something like
 
-```
+```bash
 inet 127.0.0.1 netmask ff000000
 inet 192.168.0.20 netmask ffffff00 broadcast 192.168.0.255 # could be 10.0.0.x or another IP range.
 inet6 ::1/128
@@ -29,7 +29,7 @@ Next open a ```terminal``` on another computer(or your favorite ```ssh``` client
 
 - The ```username``` and ```password``` is ```jack```.
 
-```
+```bash
 adrian@am1m-s2h:~$ ssh jack@192.168.0.20
 The authenticity of host '192.168.0.20 (192.168.0.20)' can't be established.
 RSA key fingerprint is c9:41:f8:75:3a:2c:78:d5:b0:a4:04:7d:ae:94:74:a1.
@@ -47,7 +47,7 @@ Now that you're ```sshed``` into the OpenIndiana ```live``` system you can initi
 
 To do so etner:
 
-```
+```bash
 jack@openindiana:~$ /usr/bin/sudo /usr/bin/text-install
 ```
 
@@ -78,7 +78,7 @@ Now you can setup your ```hostname```(Computer Name) and how your ```network``` 
 
 ![set hostname](../images/install/txt/network2.png)
 
-# Region, location, and time zone
+## Region, location, and time zone
 
 Now you have to select your ```Region```
 
@@ -112,6 +112,6 @@ Press ```F2``` to install and wait!
 
 You can now press ```F8``` to reboot into your shiny new system, ```F4``` to view the log, and ```F9``` to quit.
 
-# asciinema video
+## asciinema video
 
 [![asciicast](https://asciinema.org/a/2trhadpsleybvx0dt1ucekrlz.png)](https://asciinema.org/a/2trhadpsleybvx0dt1ucekrlz)

@@ -16,9 +16,9 @@ rpool/export/home/adrian   322K  24.2G   322K  /export/home/adrian
 rpool/swap                 816M  24.9G   120M  -
 adrian@openindiana-tuts:~$ # the snapshot we want to get rid of is rpool/ROOT/openindiana
 adrian@openindiana-tuts:~$ # since that is the snapshot without updates on it
-adrian@openindiana-tuts:~$ # to do so we just type 
+adrian@openindiana-tuts:~$ # to do so we just type
 adrian@openindiana-tuts:~$ sudo zfs destroy rpool/ROOT/openindiana #this should remove the old image
-Password: 
+Password:
 adrian@openindiana-tuts:~$ zfs list
 NAME                       USED  AVAIL  REFER  MOUNTPOINT
 rpool                     6.50G  24.3G    30K  /rpool

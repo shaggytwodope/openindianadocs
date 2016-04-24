@@ -11,12 +11,12 @@ A variety of notes for doing various things in Open Indiana
 - ZFS
 
 
-# Picture
+## Picture
 
 ![cover](images/cover.png)
 
 
-# Contributors
+## Contributors
 
 - [/u/127b](https://www.reddit.com/user/127b)
 - [John ShaggyTwoDope Jenkins](https://github.com/ShaggyTwoDope)
