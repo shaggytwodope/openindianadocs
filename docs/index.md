@@ -1,7 +1,7 @@
 #![logo](images/global.logo.png) Docs
 
 
-A variety of notes for doing misc in Open Indiana
+A variety of notes for doing various things in Open Indiana
 
 - Boot
 - Installing OpenIndiana(Hipster)
