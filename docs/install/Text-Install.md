@@ -2,17 +2,17 @@
 
 ## Boot and setup
 
-In the ```boot menu```, select ```OI hipster Enable SSH```
+In the ``boot menu``, select ``OI hipster Enable SSH``
 
 ![select ssh](../images/install/txt/select-ssh.png)
 
-When you get to the desktop open a ```terminal``` and enter
+When you get to the desktop open a ``terminak`` and enter
 
 ```bash
 ifconfig | grep inet
 ```
 
-This should ```print``` something like
+This should ``print`` something like
 
 ```bash
 inet 127.0.0.1 netmask ff000000
@@ -25,9 +25,10 @@ inet6 fe80::a00:27ff:fe1f:41e4/10
 
 ## SSH and install start.
 
-Next open a ```terminal``` on another computer(or your favorite ```ssh``` client ***IF*** you're on windows) and connect.
+Next open a ``terminal`` on another computer 
+(or your favorite ``ssh`` client **IF** you're on windows) and connect.
 
-- The ```username``` and ```password``` is ```jack```.
+- The ``username`` is ``jack`` and the ``password`` is ``openindiana``
 
 ```bash
 adrian@am1m-s2h:~$ ssh jack@192.168.0.20
@@ -43,7 +44,8 @@ jack@openindiana:~$
 
 ![ssh-into](../images/install/txt/ssh-into.png)
 
-Now that you're ```sshed``` into the OpenIndiana ```live``` system you can initiate the ```text install```.
+now that you're ``sshed`` into the OpenIndiana ``live`` system you can initiate
+the ``text install``.
 
 To do so etner:
 
@@ -51,18 +53,19 @@ To do so etner:
 jack@openindiana:~$ /usr/bin/sudo /usr/bin/text-install
 ```
 
-You will be prompted for a ```password```, the password is ```openindiana```
+You will be prompted for a ``password``, the password is ``openindiana``
 
 
 ![start text install](../images/install/txt/initialize-text-install.png)
 
-Take a moment to read if you need to and when you're ready press ```F2``` to continue.
+Take a moment to read if you need to and when you're ready press ``F2`` to continue.
 
 ![first-menu](../images/install/txt/firstmenu.png)
 
 ## Disk partitioning/management
 
-Now you can ```partition``` your ```drive``` or just use the whole drive. (use ```arrow``` keys to navigate menus)
+Now you can ``partition`` your ``disk`` or just use the whole disk. 
+(use ``arrow`` keys to navigate menus)
 
 ![partition screen one](../images/install/txt/partitionscreen1.png)
 
@@ -72,7 +75,8 @@ Now you can ```partition``` your ```drive``` or just use the whole drive. (use `
 
 ## Network setup
 
-Now you can setup your ```hostname```(Computer Name) and how your ```network``` is setup.
+Now you can setup your ``hostname``(Computer Name) 
+and how your ``network`` is setup.
 
 ![set hostname](../images/install/txt/network1.png)
 
@@ -80,19 +84,19 @@ Now you can setup your ```hostname```(Computer Name) and how your ```network``` 
 
 ## Region, location, and time zone
 
-Now you have to select your ```Region```
+Now you have to select your ``Region``
 
 ![Regions](../images/install/txt/tz1.png)
 
-your ```location```
+your ``location``
 
 ![Regions](../images/install/txt/tz2.png)
 
-your ```time zone```
+your ``time zone``
 
 ![time zone](../images/install/txt/tz3.png)
 
-and finally make sure the ```date``` and ```time``` is correct
+and finally make sure the ``date`` and ``time`` is correct
 
 ![time zone](../images/install/txt/tz4.png)
 
@@ -104,13 +108,13 @@ and finally make sure the ```date``` and ```time``` is correct
 
 ![Summary](../images/install/txt/summary.png)
 
-Press ```F2``` to install and wait!
+Press ``F2`` to install and wait!
 
 ![installer](../images/install/txt/install.png)
 
 ![the end](../images/install/txt/end.png)
 
-You can now press ```F8``` to reboot into your shiny new system, ```F4``` to view the log, and ```F9``` to quit.
+You can now press ``F8`` to reboot into your shiny new system, ``F4`` to view the log, and ``F9`` to quit.
 
 ## asciinema video
 
