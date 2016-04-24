@@ -6,18 +6,18 @@ case for needing to boot into a new image is after pkg updates
 * Goto the ```System``` menu,
   * Press ```Shut Down...```
 
-![system menu](images/boot/PSD.png)
+![system menu](../images/boot/PSD.png)
 
 * Press the arrow next to ```More Options```
   * Select ```openindiana-1```
 
-![more options](images/boot/MOM.png)
+![more options](../images/boot/MOM.png)
 
 * Press ```Restart```
 
 * Be sure "openindiana-1" is selected in the boot menu.
 
-![boot menu](images/boot/BM.png)
+![boot menu](../images/boot/BM.png)
 
 * Wait for it to boot, and you should be in your shiny new updated system.
 
