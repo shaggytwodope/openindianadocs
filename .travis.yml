@@ -2,5 +2,7 @@ language: python
 python: "2.7"
 install:
     - pip install mkdocs
+    - gem install mdl
 script:
+    - mdl .
     - mkdocs build
