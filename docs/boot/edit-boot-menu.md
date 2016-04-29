@@ -1,4 +1,4 @@
-# Modifying the boot meun on OpenIndiana
+# Modifying the boot menu on OpenIndiana
 
 ```bash
 # list current boot menu(roughly, and location of it)

@@ -67,7 +67,7 @@ To remove a service from the manager first make sure it is disabled then
 sudo svccfg delete network/service:default
 ```
 
-This will auto start on boot as ROOT unless you specify otherwise.You can
+This will auto start on boot as ROOT unless you specify otherwise. You can
 change the user by adding in method credentials into the start, stop or restart
 exec_methods.
 

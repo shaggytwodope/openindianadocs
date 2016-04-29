@@ -15,15 +15,15 @@ As soon as the desktop loads, click "Install OpenIndiana" and this screen will a
 
 ![Disk Menu](../images/install/gui/SIL.png)
 
-Here you can just select "Use the whole disk" if you're only going to install OpenIndiana on this system, otherwise you can Selection "Parition the disk" and partition it accordingly.
+Here you can just select "Use the whole disk" if you're only going to install OpenIndiana on this system, otherwise you can Selection "Partition the disk" and partition it accordingly.
 
 ![Time Zone, Date and Time](../images/install/gui/SDAT.png)
 
-On this screen you select your region, location, timezone, date, and time. Also whether you want 24 hour or 12 hour time.
+On this screen you select your region, location, time zone, date, and time. Also whether you want 24 hour or 12 hour time.
 
 ![Locale](../images/install/gui/SL.png)
 
-This screen is for seting up the locale which controls things like default language support, date formats, etc.
+This screen is for setting up the locale which controls things like default language support, date formats, etc.
 
 ![Users](../images/install/gui/SMUD.png)
 
@@ -31,7 +31,7 @@ Enter your root password, your "real name", "username" and your users password, 
 
 ![Waiting game](../images/install/gui/ISS.png)
 
-And now you play the waiting game, the system is now seting up itself/installing. Go make a cup of coffee, snuggle a loved one, or something! It might be a while.
+And now you play the waiting game, the system is now setting up itself/installing. Go make a cup of coffee, snuggle a loved one, or something! It might be a while.
 
 ![Ding, OS is ready](../images/install/gui/FIS.png)
 

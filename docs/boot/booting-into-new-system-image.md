@@ -3,7 +3,7 @@
 You can have multiple snapshots of / in OpenIndiana thanks to ZFS, a typical
 use case for needing to boot into a new image is after pkg updates
 
-* Goto the ```System``` menu,
+* Go to the ```System``` menu,
   * Press ```Shut Down...```
 
 ![system menu](../images/boot/PSD.png)
