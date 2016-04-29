@@ -39,7 +39,7 @@ adrian  localhost:/export/home/&
 
 ```
 
-To do this(open your favorite editor):
+To do this(open your favourite editor):
 
 ```bash
 adrian@openindiana-tuts:~$ sudo nano /etc/auto_home # append paul localhost:/export/home/& before +auto_home

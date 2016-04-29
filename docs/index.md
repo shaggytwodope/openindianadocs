@@ -7,7 +7,7 @@ A variety of notes for doing various things in Open Indiana
 - Installing OpenIndiana(Hipster)
 - Networking
 - Package Management
-- System Administratoin
+- System Administration
 - ZFS
 
 

@@ -1,6 +1,6 @@
-# Mirring Rpool
+# Mirroring Rpool
 
-For safetys sake lets say you wanted to mirror your rpool, unfortunately this is not as straight forward as simply running.
+For safeties sake lets say you wanted to mirror your rpool, unfortunately this is not as straight forward as simply running.
 
 ```bash
 adrian@openindiana-tuts:~$ sudo zpool attach rpool drive1 drive2
@@ -8,7 +8,7 @@ adrian@openindiana-tuts:~$ sudo zpool attach rpool drive1 drive2
 
 the full process is listed below.
 
-Lets assume you have two disks c7t0d0and c7t1d0(where c7t0d0contains your current installation).
+Lets assume you have two disks c7t0d0and c7t1d0(where c7t0d0 contains your current installation).
 
 * Boot up gparted and ensure the second disk has no partitions(or your fave partition tool.)
 

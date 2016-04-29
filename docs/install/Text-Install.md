@@ -26,7 +26,7 @@ inet6 fe80::a00:27ff:fe1f:41e4/10
 ## SSH and install start.
 
 Next open a ``terminal`` on another computer
-(or your favorite ``ssh`` client **IF** you're on windows) and connect.
+(or your favourite ``ssh`` client **IF** you're on windows) and connect.
 
 - The ``username`` is ``jack`` and the ``password`` is ``openindiana``
 
@@ -47,7 +47,7 @@ jack@openindiana:~$
 now that you're ``sshed`` into the OpenIndiana ``live`` system you can initiate
 the ``text install``.
 
-To do so etner:
+To do so enter:
 
 ```bash
 jack@openindiana:~$ /usr/bin/sudo /usr/bin/text-install
