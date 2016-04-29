@@ -6,7 +6,7 @@ You can simply edit the ``/etc/syslog.conf`` file and, wherever
 ``IP`` address or ```hostname``` of the remote server where to send the
 ``logs``.
 
-eg:
+e.g.:
 
 before:
 

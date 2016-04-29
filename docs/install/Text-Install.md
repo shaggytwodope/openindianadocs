@@ -26,7 +26,7 @@ inet6 fe80::a00:27ff:fe1f:41e4/10
 ## SSH and install start.
 
 Next open a ``terminal`` on another computer
-(or your favourite ``ssh`` client **IF** you're on windows) and connect.
+(or your favorite ``ssh`` client **IF** you're on windows) and connect.
 
 - The ``username`` is ``jack`` and the ``password`` is ``openindiana``
 

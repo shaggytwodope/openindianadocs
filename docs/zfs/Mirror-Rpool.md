@@ -8,7 +8,7 @@ adrian@openindiana-tuts:~$ sudo zpool attach rpool drive1 drive2
 
 the full process is listed below.
 
-Lets assume you have two disks c7t0d0and c7t1d0(where c7t0d0 contains your current installation).
+Lets assume you have two disks c7t0d0 and c7t1d0(where c7t0d0 contains your current installation).
 
 * Boot up gparted and ensure the second disk has no partitions(or your fave partition tool.)
 

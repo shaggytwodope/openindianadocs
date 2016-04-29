@@ -1,0 +1,67 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+ - README.md
+openindianadocs
+mkdocs
+ - docs/boot/booting-into-new-system-image.md
+OpenIndiana
+ZFS
+openindiana-1
+ - docs/index.md
+127b
+ShaggyTwoDope
+Veektorija
+Koshkayatchkov
+AdrianKoshka
+ - docs/install/GUI-Install.md
+e.g.
+47
+46
+i.e.
+24
+12
+hostname
+ - docs/install/Text-Install.md
+asciinema
+ - docs/networking/setting-a-static-ip.md
+ipadm
+bge0
+DNS
+workgroup
+google.com
+ - docs/package-management/Installing-pkgin-from-joyent.md
+pkgsrc
+Joyent
+pkgin
+64-bit
+32-bit
+Multiarch
+_
+https
+ - docs/sysadmin/making-syslog-log-to-remote-server.md
+syslog
+remoteSystem
+syslogd
+Solaris
+ - docs/sysadmin/mounting-nfs-shares.md
+NFS
+ - docs/sysadmin/new-home-directories.md
+paul
+automounted
+ - docs/sysadmin/service-management.md
+scvs
+xml
+_methods
+ - docs/zfs/Mirror-Rpool.md
+Rpool
+rpool
+c7t1d0
+c7t0d0
+gparted
+solaris2
+191
+SUNIXOS2
+resilver
